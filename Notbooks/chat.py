@@ -101,7 +101,6 @@ def tree_to_code(tree, feature_names,nbmodel, clf):
             print( present_disease )
             red_cols = reduced_data.columns 
             symptoms_given = red_cols[reduced_data.loc[present_disease].values[0].nonzero()]
-            # dis_list=list(symptoms_present)
             # if len(dis_list)!=0:
             #     print("symptoms present  " + str(list(symptoms_present)))
             # print("symptoms given "  +  str(list(symptoms_given)) )
